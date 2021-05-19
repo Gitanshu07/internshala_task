@@ -1,0 +1,131 @@
+#navbar{
+flex-direction: column;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+#navbar .logo{
+    font-size: 1rem;
+    
+}
+
+ #navbar ul{
+    position: relative;
+    left: 0%;
+    
+} 
+#navbar ul li{
+    margin: 0 2px;
+    font-size: 8px;
+}
+
+#navbar ul li a{
+   
+    padding:10px 6px;
+ 
+}
+
+.middle .bit{
+    position: absolute;
+    right: 20px;
+    top: 130px;
+}
+
+
+.bit img{
+    width: 130px;
+    height: 130px;
+}
+
+.block{
+    text-align: center;
+    width: 90%;
+    margin: 250px auto 0 auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.block .head{
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+    padding:0 0 10px 0;
+   
+}
+
+.block hr{
+    width: 40%;
+    
+}
+
+.block .para{
+    font-weight: 500;
+    line-height: 1.2rem;
+    padding: 20px 0 40px 0;
+    font-size: 13px;
+}
+
+.second img{
+    width: 130px;
+    height: 130px;
+}
+
+.second .button{
+    margin-left: 3%;
+}
+
+.second .button .btn{
+    margin: 0 12px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button .btn1{
+    background-color:#262624;
+    color: white;
+}
+
+.bottom h1{
+    margin: 40px 0 10px 30px;
+    
+}
+
+.container .box{
+    margin: 30px 20px;
+    
+}
+
+.bottom h1{
+    margin: 60px 0 10px 30px;
+    font-size: 1.4rem;
+    font-family: 'Righteous', cursive;
+}
+
+.bottom .container{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; */
+}
+
+.box h2{
+    font-size: 1.5rem;
+   
+}
+
+.box .price{
+    
+    padding: 10px 0;
+}
+
+
+.dot2{
+    font-size: 8px;
+}

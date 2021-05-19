@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #bfbfbd;
+}
+
+#navbar{
+    display: flex;
+    background-color:#765bc7;
+    padding: 10px 20px;
+    
+}
+#navbar .logo{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 20px;
+
+    
+}
+
+#navbar ul{
+    display: flex;
+    position: relative;
+    left: 20%;
+
+}
+
+#navbar ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding:10px 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar ul li a:hover{
+    color: thistle;
+}
+
+.middle .bit{
+    position: absolute;
+    right: 40px;
+    top: 100px;
+}
+
+.bit img{
+    border-radius: 100%;
+}
+.block{
+    text-align: center;
+    width: 70%;
+    margin: 250px auto 0 auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.block .head{
+    line-height: 3rem;
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+.block hr{
+    width: 30%;
+    margin: 0 auto;
+    border-width: 3px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: black;
+}
+
+.block .para{
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding: 20px 0;
+}
+
+.middle .second{
+    display: flex;
+    align-items: center;
+}
+
+.second .img{
+    margin-left: 60px;
+    
+}
+
+.img img{
+    border-radius: 100%;
+}
+.second .button{
+    margin-left: 5%;
+}
+
+.second .button .btn{
+    margin: 0 15px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button .btn1{
+    background-color:#262624;
+    color: white;
+}
+
+.bottom h1{
+    margin: 60px 0 10px 30px;
+    font-size: 2rem;
+    font-family: 'Righteous', cursive;
+}
+
+.bottom hr{
+    width: 18%;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: 4px;
+    border-color: black;
+}
+
+.bottom .container{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.container .box{
+    background-color: #ecdaf7;
+    border-radius: 20px;
+    margin: 30px 30px;
+    padding:10px 10px 10px 25px;
+    /* width: 100%; */
+}
+
+.box h2{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.box .price{
+    color: purple;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 20px 0;
+}
+
+.box table thead{
+    font-size: 10px;
+    text-align: left;
+}
+
+.dot2{
+    font-size: 10px;
+}
+.dot{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: sienna;
+    display: inline-block;
+    margin:0 20px 20px 0;
+}
+
+.my-block{
+    display: flex;
+    align-items: center;
+}
+
+.my-block .span-2{
+    display: inline-block;
+    margin-left: 35%;
+    background-color: white;
+    padding: 0 3px;
+    border-radius: 50%;
+    
+}
